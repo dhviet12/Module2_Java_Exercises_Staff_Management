@@ -6,6 +6,7 @@ public class Main {
         StaffManagement staffManagement = new StaffManagement();
         int choice;
         do {
+            System.out.println("MENU");
             System.out.println("1.Add new staff");
             System.out.println("2.Display all");
             System.out.println("3.Display average salary in whole company");
@@ -13,6 +14,7 @@ public class Main {
             System.out.println("5.Display total salary must pay for Part time staff");
             System.out.println("6.Display Full time staff by salary sorting");
             System.out.println("0.Exit");
+            System.out.println("----------------------------------------");
             System.out.println("Enter your choice:");
             choice = Integer.parseInt(scanner.nextLine());
             switch (choice) {
